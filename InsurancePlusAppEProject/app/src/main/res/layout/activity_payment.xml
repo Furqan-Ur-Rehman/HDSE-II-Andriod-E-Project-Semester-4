@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buyInsurance"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="212dp"
+        android:backgroundTint="#36A3F6"
+        android:fontFamily="@font/arimo"
+        android:text="PAY 15,000 PKR"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.754" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="349dp"
+        android:layout_height="260dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="354dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carddetails" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="318dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name on card"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buyInsurance"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Card No."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buyInsurance"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <EditText
+        android:id="@+id/editTextText16"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Expiry Date"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buyInsurance"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <EditText
+        android:id="@+id/editTextText17"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:text="CVV"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buyInsurance"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.871" />
+</androidx.constraintlayout.widget.ConstraintLayout>
